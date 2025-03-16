@@ -4,6 +4,6 @@ namespace learningAPI.Model.Entity;
 
 public class Fruits
 {
-    public string? Name { get; set; };
+    public string? Name { get; set; }
 
 }

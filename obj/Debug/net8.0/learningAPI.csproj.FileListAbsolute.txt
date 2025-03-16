@@ -33,3 +33,4 @@ C:\Users\suraj\AllProjects\dotnet_Projects\WebAPI\learningAPI\obj\Debug\net8.0\r
 C:\Users\suraj\AllProjects\dotnet_Projects\WebAPI\learningAPI\obj\Debug\net8.0\learningAPI.pdb
 C:\Users\suraj\AllProjects\dotnet_Projects\WebAPI\learningAPI\obj\Debug\net8.0\learningAPI.genruntimeconfig.cache
 C:\Users\suraj\AllProjects\dotnet_Projects\WebAPI\learningAPI\obj\Debug\net8.0\ref\learningAPI.dll
+C:\Users\suraj\AllProjects\dotnet_Projects\WebAPI\learningAPI\obj\Debug\net8.0\learningAPI.sourcelink.json
