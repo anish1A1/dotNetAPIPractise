@@ -29,10 +29,21 @@ namespace learningAPI.Controllers
             {
                 return BadRequest("Invalid Fruit index: " + index);
             }
-
+            // gets the fruits index and change its value to the new fruit name 
             fruits[index] = fruit;
-            return Ok(fruit);
+            return Ok($"Updated fruit {fruit}");
         } 
         
+
+        [HttpDelete("{index}")]
+        public IActionResult DeleteFruit(int index){
+            if (index <= 0 || index >= fruits.Count)
+            {
+                return BadRequest("Invalid Fruit index: " + index);
+            }
+            string deletedFruit = fruits[index];
+            fruits.RemoveAt(index);
+            return Ok($"Deleted fruit {deletedFruit}");
+        }
     }
 }
